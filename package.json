@@ -1,0 +1,24 @@
+{
+  "name": "ansi-escape-library",
+  "version": "0.0.0",
+  "description": "A console todo list built in Node.js",
+  "main": "index.js",
+  "scripts": {
+      "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosiahFu/ansi-escape-library.git"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "cli"
+  ],
+  "author": "Josiah Fu josiahfu@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosiahFu/ansi-escape-library/issues"
+  },
+  "homepage": "https://github.com/JosiahFu/ansi-escape-library#readme"
+}
