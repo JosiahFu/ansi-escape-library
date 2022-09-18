@@ -4,7 +4,7 @@
   "description": "A console todo list built in Node.js",
   "main": "index.js",
   "scripts": {
-      "build": "tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/JosiahFu/ansi-escape-library/issues"
   },
-  "homepage": "https://github.com/JosiahFu/ansi-escape-library#readme"
+  "homepage": "https://github.com/JosiahFu/ansi-escape-library#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.18"
+  }
 }
