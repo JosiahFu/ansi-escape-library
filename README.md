@@ -1,3 +1,3 @@
-# todo-list
+# ansi-escape-library
 
-A console todo list built in Node.js
+A Node.js library to make using ANSI escape codes more intuitive.
