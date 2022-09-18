@@ -1,5 +1,5 @@
-const esc = '\033';
-const csi = esc + '[';
+export const esc = '\033';
+export const csi = esc + '[';
 
-exports.gencs = (suffix: string) => (...n = [1]) => csi + n.join(';') + suffix;
+export const gencs = (suffix: string) => (...n: number[]) => csi + n.join(';') + suffix;
 

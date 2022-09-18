@@ -1,5 +1,4 @@
-const main = require('main');
-const gencs = main.gencs;
+import {esc, csi, gencs} from './main'
 
 enum EraseMode {
     AfterCursor = 0,
@@ -8,12 +7,12 @@ enum EraseMode {
     EntireScreenAndBuffer = 3
 }
 
-exports.up = gencs('A');
-exports.down = gencs('B');
-exports.forward = gencs('C');
-exports.back = gencs('D');
-exports.nextLine = gencs('E');
-exports.prevLine = gencs('F');
-exports.setColumn = gencs('G');
-exports.setPosition = (row: number, column: number) => csi+row+';'+column+'H';
-exports.erase = (mode: EraseMode) => (gencs('J'))(<number>mode);
+export const up = gencs('A');
+export const down = gencs('B');
+export const forward = gencs('C');
+export const back = gencs('D');
+export const nextLine = gencs('E');
+export const prevLine = gencs('F');
+export const setColumn = gencs('G');
+export const setPosition = (row: number, column: number) => csi+row+';'+column+'H';
+export const erase = (mode: EraseMode) => (gencs('J'))(<number>mode);
